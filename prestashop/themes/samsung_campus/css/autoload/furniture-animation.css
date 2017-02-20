@@ -1,0 +1,272 @@
+/*
+* 2007-2014 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2014 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+
+/** Social btns rotated start       **/
+.facebook a {
+  background-image: url('../../img/facebook.png');
+  height: 34px;
+  width: 34px;  
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  background-repeat: no-repeat;
+}
+.facebook a:hover {
+  background-image: url('../../img/facebook.png');
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+  background-repeat: no-repeat;
+}
+
+.twitter a {
+  background-image: url('../../img/twitter.png');
+  height: 34px;
+  width: 34px;  
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  background-repeat: no-repeat;
+}
+.twitter a:hover {
+  background-image: url('../../img/twitter.png');
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+  background-repeat: no-repeat;
+}
+.rss a {
+  background-image: url('../../img/Rss.png');
+  height: 34px;
+  width: 34px;
+   float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  background-repeat: no-repeat;
+}
+.rss a:hover {
+  background-image: url('../../img/Rss.png');
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+  background-repeat: no-repeat;
+}
+
+.google-plus a{
+  background-image: url('../../img/google.png');
+  height: 34px;
+  width: 34px;
+   float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  background-repeat: no-repeat;
+
+}
+.google-plus a:hover{
+  background-image: url('../../img/google.png');
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+  background-repeat: no-repeat;
+  
+}
+.footer-container #footer #social_block ul li.twitter a:before,.footer-container #footer #social_block ul li.facebook a:before,.footer-container #footer #social_block ul li.rss a:before,.footer-container #footer #social_block ul li.google-plus a:before {
+  display: none;
+}
+
+/** Social btns rotated ends**/
+
+
+/**  cart Backround image Start**/
+
+  .shopping_cart > a:first-child{
+  background-image: url("../../img/cart-Bag.png") !important;
+background-repeat: no-repeat !important;
+padding: 10px 14px 13px 78px !important;
+}
+.shopping_cart > a:first-child:before{
+  display:none !important;
+}
+
+.shopright{
+float: right;
+}
+/**  cart Backround image end**/
+
+/**  Search bar  Start**/
+#search_block_top {
+padding-top: 0px;
+float: right;
+width: 20%;
+
+}
+#contact-link a,.header_user_info a,#languages-block-top div.current {
+  line-height: 26px;
+}
+/**  Search bar end**/
+
+/** image rotate start */
+
+
+ ul.product_list.grid > li.hovered .product-image-container img{
+    transform: rotateX(0deg) rotateY(160deg) rotatez(0deg); 
+  transform-origin: bottom;
+  transform-style: preserve -3d;
+  transition: all 1.0s
+
+  }
+/** image rotate  end */
+
+
+ /** Brecurm start end */
+    ul.step li em{
+
+    content: counter(flag);
+counter-increment: flag;
+border-radius: 100%;
+
+background-color: #444!important;
+background: linear-gradient(#444, #222);
+font-weight: bold;
+font-size: 25px;
+    }
+    ul.step li.step_todo span ,ul.step li.step_current span,ul.step li.step_done a{
+padding-left: 0px;
+}
+ul.step li.first span, ul.step li.first a {
+z-index: 5;
+padding-left: 0px !important;
+}
+ul.step li {
+  text-align: center;
+  border: 0px solid;
+}
+
+ul.step li a:after, ul.step li span:after, ul.step li.step_current span:after, ul.step li.step_current_end span:after,ul.step li.step_done a:after,ul.step li.step_todo span:after {
+
+  display: inline-block;
+content: ".";
+position: absolute;
+right: -19px;
+top: 9px;
+width: 33px;
+height: 33px;
+background: transparent;
+
+box-shadow: 2px -2px 0 2px rgba(0, 0, 0, 0.4), 3px -3px 0 2px rgba(255, 255, 255, 0.1);
+border-radius: 0px 8px 0px 50px;
+text-indent: -5000px;
+ z-index: -1; 
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+
+
+
+     /** Brecurm  end */
+
+     /* btn pop up Start*/
+
+     #button_order_cart,.button-medium,.exclusive-medium {
+
+  margin: 8px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+#button_order_cart:hover,.button-medium:hover,.exclusive-medium:hover  {
+  margin: 0px;
+  /*box-shadow: -7px 5px 1px 4px rgba(0,0,0,0.3);*/
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+     /* btn pop up End */
+ .button.ajax_add_to_cart_button,.lnk_view{
+ box-shadow: 0px 8px 0px 1px rgba(13, 13, 12, 0.46);
+  transition: all .1s linear;
+
+ }
+     .button.ajax_add_to_cart_button:hover,.lnk_view:hover {
+       box-shadow: 0 3px 0 rgba(13, 13, 12, 0.46);
+  transform: translateY(3px);
+
+  }
+  
+ul.product_list.grid > li.hovered .product-container .product-image-container .quick-view {
+
+animation:myfirst 0.0s;
+-moz-animation:myfirst 1.0s;
+-webkit-animation:myfirst 1.0s;
+-ms-animation:myfirst 1.0s;
+}
+@-moz-keyframes myfirst /* Firefox */{
+0% { left:5%; }
+100% { left:50%; }
+}
+@-webkit-keyframes myfirst {
+0% { left:5%; }
+100% { left:50%; }
+}
+@-ms-keyframes myfirst {
+0% { left:5%; }
+100% { left:50%; }
+}
+
+ @media (max-width: 767px) {
+    #spy {
+      display: none; } }
