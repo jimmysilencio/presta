@@ -10,20 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '104755128858ab0366c34638-82367127',
-  'variables' => 
-  array (
-    'link' => 0,
-    'returnAllowed' => 0,
-    'voucherAllowed' => 0,
-    'HOOK_BLOCK_MY_ACCOUNT' => 0,
-    'is_logged' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58ab0366c7da93_25044168',
+  'unifunc' => 'content_58ab1046b80b21_97805860',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58ab0366c7da93_25044168')) {function content_58ab0366c7da93_25044168($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58ab1046b80b21_97805860')) {function content_58ab1046b80b21_97805860($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://localhost/presta/prestashop/mon-compte" title="Gérer mon compte client" rel="nofollow">Mon compte</a></h4>
