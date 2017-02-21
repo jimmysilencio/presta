@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:117985803658ab11e33f79c4-44262741%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:114372454758ac0afb2199c4-84149385%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '117985803658ab11e33f79c4-44262741',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58ab11e36a0533_27265340',
+  'nocache_hash' => '114372454758ac0afb2199c4-84149385',
+  'variables' => 
+  array (
+    'colors_list' => 0,
+    'col_img_dir' => 0,
+    'color' => 0,
+    'link' => 0,
+    'img_color_exists' => 0,
+    'img_col_dir' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58ac0afb2ab848_74405941',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58ab11e36a0533_27265340')) {function content_58ab11e36a0533_27265340($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
+<?php if ($_valid && !is_callable('content_58ac0afb2ab848_74405941')) {function content_58ac0afb2ab848_74405941($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
 					<li>
 			<a href="http://localhost/presta/prestashop/robes-decontractees/3-robe-imprimee.html#/taille-s/couleur-orange" id="color_13" class="color_pick" style="background:#F39C11;">
 							</a>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-20 16:57:23
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-21 10:40:11
          compiled from "/home/anicet_j/Rendu/presta/prestashop/themes/samsung_campus/nbr-product-page.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:189248399158ab11e3d44030-95517833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:85517908458ac0afba1b9a1-01760648%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '189248399158ab11e3d44030-95517833',
+  'nocache_hash' => '85517908458ac0afba1b9a1-01760648',
   'function' => 
   array (
   ),
@@ -36,9 +36,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58ab11e3df0fb7_90831303',
+  'unifunc' => 'content_58ac0afba79dd3_39542022',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58ab11e3df0fb7_90831303')) {function content_58ab11e3df0fb7_90831303($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58ac0afba79dd3_39542022')) {function content_58ac0afba79dd3_39542022($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['p']->value)&&$_smarty_tpl->tpl_vars['p']->value) {?>
 	<?php if (isset($_GET['id_category'])&&$_GET['id_category']&&isset($_smarty_tpl->tpl_vars['category']->value)) {?>
 		<?php $_smarty_tpl->tpl_vars['requestPage'] = new Smarty_variable($_smarty_tpl->tpl_vars['link']->value->getPaginationLink('category',$_smarty_tpl->tpl_vars['category']->value,false,false,true,false), null, 0);?>
